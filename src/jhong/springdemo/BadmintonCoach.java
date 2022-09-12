@@ -1,16 +1,16 @@
 package jhong.springdemo;
 
-public class TrackCoach implements Coach {
+public class BadmintonCoach implements Coach {
 	
 	private FortuneService fortuneService;
 	
-	public TrackCoach(FortuneService theFortuneService) {
+	public BadmintonCoach(FortuneService theFortuneService) {
 		fortuneService = theFortuneService;
 	}
 	
 	@Override
 	public String getDailyWorkout() {
-		return "Run a hard 5k";
+		return "Play badminton for 2 hours";
 	}
 
 	@Override
