@@ -30,9 +30,39 @@
 	</natures>
 	<linkedResources>
 		<link>
+			<name>WebContent/WEB-INF/lib/classmate-1.5.1.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/classmate-1.5.1.jar</locationURI>
+		</link>
+		<link>
 			<name>WebContent/WEB-INF/lib/commons-logging-1.2.jar</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/lib/commons-logging-1.2.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/hibernate-validator-6.2.4.Final.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/hibernate-validator-6.2.4.Final.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/hibernate-validator-annotation-processor-6.2.4.Final.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/hibernate-validator-annotation-processor-6.2.4.Final.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/hibernate-validator-cdi-6.2.4.Final.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/hibernate-validator-cdi-6.2.4.Final.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/jakarta.el-3.0.3.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/jakarta.el-3.0.3.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/jakarta.validation-api-2.0.2.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/jakarta.validation-api-2.0.2.jar</locationURI>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/javax.annotation-api-1.3.2.jar</name>
@@ -48,6 +78,11 @@
 			<name>WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar</name>
 			<type>1</type>
 			<locationURI>PARENT-1-PROJECT_LOC/lib/javax.servlet.jsp.jstl-api-1.2.1.jar</locationURI>
+		</link>
+		<link>
+			<name>WebContent/WEB-INF/lib/jboss-logging-3.4.1.Final.jar</name>
+			<type>1</type>
+			<locationURI>PARENT-1-PROJECT_LOC/lib/jboss-logging-3.4.1.Final.jar</locationURI>
 		</link>
 		<link>
 			<name>WebContent/WEB-INF/lib/spring-aop-5.3.9-javadoc.jar</name>

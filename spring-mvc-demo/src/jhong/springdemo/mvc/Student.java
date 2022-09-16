@@ -1,11 +1,39 @@
 package jhong.springdemo.mvc;
 
+import java.util.LinkedHashMap;
+
 import org.springframework.stereotype.Component;
 
 @Component
 public class Student {
 	private String firstName;
 	private String lastName;
+	private String country;
+	
+	private LinkedHashMap<String, String> countryOptions;
+	
+	private String favoriteLg;
+	
+	private String secondfavoriteLg;
+
+	private String[] operatingSystems; 
+	
+	public String[] getOperatingSystems() {
+		return operatingSystems;
+	}
+
+	public void setOperatingSystems(String[] operatingSystems) {
+		this.operatingSystems = operatingSystems;
+	}
+
+	public Student() {
+		countryOptions = new LinkedHashMap<>();
+		countryOptions.put("BR", "Brazil");
+		countryOptions.put("FR", "France");
+		countryOptions.put("DE", "Germany");
+		countryOptions.put("IN", "India");
+		countryOptions.put("US", "United States");
+	}
 	
 	public String getFirstName() {
 		return firstName;
@@ -22,5 +50,34 @@ public class Student {
 	public void setLastName(String lastName) {
 		this.lastName = lastName;
 	}
+
+	public String getCountry() {
+		return country;
+	}
+
+	public void setCountry(String country) {
+		this.country = country;
+	}
+
+	public LinkedHashMap<String, String> getCountryOptions() {
+		return countryOptions;
+	}
+	
+	public void setFavoriteLg(String favoriteLg) {
+		this.favoriteLg = favoriteLg;
+	}
+
+	public String getFavoriteLg() {
+		return favoriteLg;
+	}
+
+	public String getSecondfavoriteLg() {
+		return secondfavoriteLg;
+	}
+
+	public void setSecondfavoriteLg(String secondfavoriteLg) {
+		this.secondfavoriteLg = secondfavoriteLg;
+	}
+	
 	
 }

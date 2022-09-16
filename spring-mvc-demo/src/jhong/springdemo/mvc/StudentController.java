@@ -23,7 +23,9 @@ public class StudentController {
 		System.out.println("the Student: " + 
 				theStudent.getFirstName() + " " + 
 				theStudent.getLastName());
-		
+		if (theStudent.getCountry().equals("US")) {
+			System.out.println("Congratulations!");
+		}
 		return "student-confirmation";
 	}
 }
